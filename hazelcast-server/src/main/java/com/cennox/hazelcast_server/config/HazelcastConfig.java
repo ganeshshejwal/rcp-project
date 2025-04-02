@@ -1,11 +1,11 @@
-package com.cennox.rcp.config;
+package com.cennox.hazelcast_server.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Lazy;
 
-import com.cennox.rcp.hazelcast.AcquirerMapStore;
-import com.cennox.rcp.hazelcast.DeviceMapStore;
+import com.cennox.hazelcast_server.hazelcast.AcquirerMapStore;
+import com.cennox.hazelcast_server.hazelcast.DeviceMapStore;
 import com.hazelcast.config.Config;
 import com.hazelcast.config.ManagementCenterConfig;
 import com.hazelcast.config.MapConfig;

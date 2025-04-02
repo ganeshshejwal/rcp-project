@@ -1,4 +1,4 @@
-package com.cennox.rcp.hazelcast;
+package com.cennox.hazelcast_server.hazelcast;
 
 import java.util.Collection;
 import java.util.HashMap;
@@ -10,8 +10,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
-import com.cennox.rcp.entity.Acquirer;
-import com.cennox.rcp.repository.AcquirerRepository;
+import com.cennox.hazelcast_server.entity.Acquirer;
+import com.cennox.hazelcast_server.repository.AcquirerRepository;
 import com.hazelcast.map.MapStore;
 
 @Component

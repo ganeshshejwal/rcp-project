@@ -1,4 +1,4 @@
-package com.example.hazelcast_server;
+package com.cennox.hazelcast_server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

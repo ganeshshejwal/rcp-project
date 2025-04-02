@@ -34,7 +34,6 @@ dependencies {
 	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.8.3'
 	implementation 'com.hazelcast:hazelcast-spring:5.3.6'
 	implementation 'org.springframework.boot:spring-boot-starter-cache:3.4.3'
-
 }
 
 tasks.named('test') {
