@@ -1,6 +1,7 @@
 package com.cennox.rcp.controller;
 
 import java.util.List;
+import java.util.UUID;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -32,8 +33,8 @@ public class RcpController {
     }
 
     @GetMapping("/device/get/{id}")
-    public ResponseEntity<Device> getDeviceById(@PathVariable (name = "id") Long cacheId) {
-        Device device = rcpService.getDeviceById(cacheId);
+    public ResponseEntity<Device> getDeviceById(@PathVariable (name = "id") UUID deviceId) {
+        Device device = rcpService.getDeviceById(deviceId);
         return ResponseEntity.ok(device);
     }
 
@@ -47,9 +48,9 @@ public class RcpController {
     //     return ResponseEntity.ok(rcpService.updateDevice(id, device));
     // }
 
-    @DeleteMapping("/device/delete/{cacheId}")
-    public ResponseEntity<String> deleteDevice(@PathVariable ("cacheId") Long cacheId) {
-        return ResponseEntity.ok(rcpService.deleteDevice(cacheId));
+    @DeleteMapping("/device/delete/{deviceId}")
+    public ResponseEntity<String> deleteDevice(@PathVariable ("deviceId") UUID deviceId) {
+        return ResponseEntity.ok(rcpService.deleteDevice(deviceId));
     }
 
     @PostMapping("/acquirer/create")
@@ -58,9 +59,9 @@ public class RcpController {
         return ResponseEntity.status(201).body(savedAcquirer);
     }
 
-    @GetMapping("/acquirer/{cacheId}")
-    public Acquirer getAcquirerById(@PathVariable (name = "cacheId") Long cacheId) {
-        return rcpService.getAcquirerById(cacheId);
+    @GetMapping("/acquirer/{acquirerId}")
+    public Acquirer getAcquirerById(@PathVariable (name = "acquirerId") UUID acquirerId) {
+        return rcpService.getAcquirerById(acquirerId);
        
     }
 
@@ -74,9 +75,9 @@ public class RcpController {
     //     return rcpService.updateAcquirer(acquirer);
     // }
 
-    @DeleteMapping("/acquirer/Delete/{cacheId}")   
-    public String deleteAcquirer(@PathVariable (name = "cacheId") Long cacheId) {
-        rcpService.deleteAcquirer(cacheId);
+    @DeleteMapping("/acquirer/Delete/{acquirerId}")   
+    public String deleteAcquirer(@PathVariable (name = "acquirerId") UUID acquirerId) {
+        rcpService.deleteAcquirer(acquirerId);
         return "Acquirer deleted successfully";
     }
 

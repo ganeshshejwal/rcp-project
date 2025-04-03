@@ -1,6 +1,7 @@
 package com.cennox.rcp.entity;
 
 import java.io.Serializable;
+import java.util.UUID;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -21,8 +22,8 @@ import lombok.Setter;
 public class Acquirer implements Serializable{
     
     @Id
-    @Column(name = "cache_id")
-    private Long cacheId; 
+    @Column(name = "acquirer_id")
+    private UUID acquirerId; 
  
     private String acquirerName;
  
