@@ -2,6 +2,7 @@ package com.cennox.rcp.service.impl;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -50,48 +51,48 @@ public class RcpServiceImpl implements RcpService {
     
     @PostConstruct
     public void preloadDeviceCache() {
-    logger.info("The Device Data is loading from Database to cache");
-    IMap<Long, Device> cache = hazelcastInstance.getMap("device");
-    List<Device> device = deviceRepository.findAll();
-         for (Device dev : device) {
-             cache.put(dev.getCacheId(), dev);
+        logger.info("The Device Data is loading from Database to cache");
+        IMap<UUID, Device> cache = hazelcastInstance.getMap("device");
+        List<Device> devices = deviceRepository.findAll();
+        for (Device device : devices) {
+            cache.put(device.getDeviceId(), device);
         }
     }
 
 
     @Override
     public Device createDevice(Device device) {
-        IMap<Long, Device> cache = hazelcastInstance.getMap("device");
-        cache.put(device.getCacheId(), device);
+        IMap<UUID, Device> cache = hazelcastInstance.getMap("device");
+        cache.put(device.getDeviceId(), device);
         return device;
     }
 
     @Override
-    public Device getDeviceById(Long cacheId) {
-        IMap<Long, Device> cache = hazelcastInstance.getMap("device");
-        return cache.get(cacheId);
+    public Device getDeviceById(UUID deviceId) {
+        IMap<UUID, Device> cache = hazelcastInstance.getMap("device");
+        return cache.get(deviceId);
     }
 
     @Override
     public List<Device> getAllDevices() {
-        IMap<Long, Device> cache = hazelcastInstance.getMap("device");
+        IMap<UUID, Device> cache = hazelcastInstance.getMap("device");
         return new ArrayList<>(cache.values());
     }
 
-    // @Override
-    // public Device updateDevice(UUID id, Device device) {
-    //     Device existingDevice = getDeviceById(id);
-    //     existingDevice.setTerminalId(device.getTerminalId());
-    //     existingDevice.setMerchantId(device.getMerchantId());
-    //     existingDevice.setDeviceType(device.getDeviceType());
-    //     existingDevice.setLocation(device.getLocation());
-    //     return deviceRepository.save(existingDevice);
-    // }
+    @Override
+    public Device updateDevice(UUID deviceId, Device device) {
+        Device existingDevice = getDeviceById(deviceId);
+        existingDevice.setTerminalId(device.getTerminalId());
+        existingDevice.setMerchantId(device.getMerchantId());
+        existingDevice.setDeviceType(device.getDeviceType());
+        existingDevice.setLocation(device.getLocation());
+        return deviceRepository.save(existingDevice);
+    }
 
     @Override
-    public String deleteDevice(Long cacheId) {
-        IMap<Long, Device> cache = hazelcastInstance.getMap("device");
-        cache.remove(cacheId);
+    public String deleteDevice(UUID deviceId) {
+        IMap<UUID, Device> cache = hazelcastInstance.getMap("device");
+        cache.remove(deviceId);
         return "Device Deleted Sucessfully";
     }
 

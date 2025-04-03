@@ -1,9 +1,12 @@
 package com.cennox.rcp.entity;
 
 import java.io.Serializable;
+import java.util.UUID;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.Getter;
@@ -13,11 +16,12 @@ import lombok.Setter;
 @Getter
 @Entity
 @Table(name = "device")
-public class Device implements Serializable{
+public class Device implements Serializable {
 
     @Id
-    @Column(name = "cache_id")
-    private Long cacheId; 
+    @GeneratedValue(strategy = GenerationType.UUID)
+    @Column(name = "device_id")
+    private UUID deviceId; 
 
     @Column(name = "terminal_id", nullable = false, unique = true, length = 20)
     private String terminalId;

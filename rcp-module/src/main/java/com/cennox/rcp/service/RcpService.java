@@ -1,6 +1,7 @@
 package com.cennox.rcp.service;
 
 import java.util.List;
+import java.util.UUID;
 
 import com.cennox.rcp.entity.Acquirer;
   
@@ -10,13 +11,13 @@ public interface RcpService {
 
     Device createDevice(Device device);
 
-    Device getDeviceById(Long cacheId);
+    Device getDeviceById(UUID deviceId);
 
     List<Device> getAllDevices();
 
-    // Device updateDevice(UUID id, Device device);
+    Device updateDevice(UUID deviceId, Device device);
 
-    String deleteDevice(Long cacheId);
+    String deleteDevice(UUID deviceId);
 
     public Acquirer createAcquirer(Acquirer acquirer);
 

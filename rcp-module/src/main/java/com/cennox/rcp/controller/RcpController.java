@@ -1,13 +1,14 @@
 package com.cennox.rcp.controller;
 
 import java.util.List;
+import java.util.UUID;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-// import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -31,9 +32,9 @@ public class RcpController {
         return ResponseEntity.ok(rcpService.createDevice(device));
     }
 
-    @GetMapping("/device/get/{id}")
-    public ResponseEntity<Device> getDeviceById(@PathVariable (name = "id") Long cacheId) {
-        Device device = rcpService.getDeviceById(cacheId);
+    @GetMapping("/device/get/{device_id}")
+    public ResponseEntity<Device> getDeviceById(@PathVariable(name = "device_id") UUID deviceId) {
+        Device device = rcpService.getDeviceById(deviceId);
         return ResponseEntity.ok(device);
     }
 
@@ -42,14 +43,14 @@ public class RcpController {
         return ResponseEntity.ok(rcpService.getAllDevices());
     }
 
-    // @PutMapping("/device/update/{id}")
-    // public ResponseEntity<Device> updateDevice(@PathVariable UUID id, @RequestBody Device device) {
-    //     return ResponseEntity.ok(rcpService.updateDevice(id, device));
-    // }
+    @PutMapping("/device/update/{device_id}")
+    public ResponseEntity<Device> updateDevice(@PathVariable(name = "device_id") UUID deviceId, @RequestBody Device device) {
+        return ResponseEntity.ok(rcpService.updateDevice(deviceId, device));
+    }
 
-    @DeleteMapping("/device/delete/{cacheId}")
-    public ResponseEntity<String> deleteDevice(@PathVariable ("cacheId") Long cacheId) {
-        return ResponseEntity.ok(rcpService.deleteDevice(cacheId));
+    @DeleteMapping("/device/delete/{device_id}")
+    public ResponseEntity<String> deleteDevice(@PathVariable(name = "device_id") UUID deviceId) {
+        return ResponseEntity.ok(rcpService.deleteDevice(deviceId));
     }
 
     @PostMapping("/acquirer/create")
@@ -59,9 +60,9 @@ public class RcpController {
     }
 
     @GetMapping("/acquirer/{cacheId}")
-    public Acquirer getAcquirerById(@PathVariable (name = "cacheId") Long cacheId) {
+    public Acquirer getAcquirerById(@PathVariable(name = "cacheId") Long cacheId) {
         return rcpService.getAcquirerById(cacheId);
-       
+
     }
 
     @GetMapping("/acquirer/getAll")
@@ -71,11 +72,11 @@ public class RcpController {
 
     // @PutMapping("/acquirer/update")
     // public Acquirer updateAcquirer(@RequestBody Acquirer acquirer) {
-    //     return rcpService.updateAcquirer(acquirer);
+    // return rcpService.updateAcquirer(acquirer);
     // }
 
-    @DeleteMapping("/acquirer/Delete/{cacheId}")   
-    public String deleteAcquirer(@PathVariable (name = "cacheId") Long cacheId) {
+    @DeleteMapping("/acquirer/Delete/{cacheId}")
+    public String deleteAcquirer(@PathVariable(name = "cacheId") Long cacheId) {
         rcpService.deleteAcquirer(cacheId);
         return "Acquirer deleted successfully";
     }
