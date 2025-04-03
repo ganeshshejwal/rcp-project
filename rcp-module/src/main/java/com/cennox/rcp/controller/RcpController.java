@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-// import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -32,8 +32,8 @@ public class RcpController {
         return ResponseEntity.ok(rcpService.createDevice(device));
     }
 
-    @GetMapping("/device/get/{id}")
-    public ResponseEntity<Device> getDeviceById(@PathVariable (name = "id") UUID deviceId) {
+    @GetMapping("/device/get/{device_id}")
+    public ResponseEntity<Device> getDeviceById(@PathVariable(name = "device_id") UUID deviceId) {
         Device device = rcpService.getDeviceById(deviceId);
         return ResponseEntity.ok(device);
     }
@@ -43,13 +43,13 @@ public class RcpController {
         return ResponseEntity.ok(rcpService.getAllDevices());
     }
 
-    // @PutMapping("/device/update/{id}")
-    // public ResponseEntity<Device> updateDevice(@PathVariable UUID id, @RequestBody Device device) {
-    //     return ResponseEntity.ok(rcpService.updateDevice(id, device));
-    // }
+    @PutMapping("/device/update/{device_id}")
+    public ResponseEntity<Device> updateDevice(@PathVariable(name = "device_id") UUID deviceId, @RequestBody Device device) {
+        return ResponseEntity.ok(rcpService.updateDevice(deviceId, device));
+    }
 
-    @DeleteMapping("/device/delete/{deviceId}")
-    public ResponseEntity<String> deleteDevice(@PathVariable ("deviceId") UUID deviceId) {
+    @DeleteMapping("/device/delete/{device_id}")
+    public ResponseEntity<String> deleteDevice(@PathVariable(name = "device_id") UUID deviceId) {
         return ResponseEntity.ok(rcpService.deleteDevice(deviceId));
     }
 
@@ -72,7 +72,7 @@ public class RcpController {
 
     // @PutMapping("/acquirer/update")
     // public Acquirer updateAcquirer(@RequestBody Acquirer acquirer) {
-    //     return rcpService.updateAcquirer(acquirer);
+    // return rcpService.updateAcquirer(acquirer);
     // }
 
     @DeleteMapping("/acquirer/Delete/{acquirerId}")   

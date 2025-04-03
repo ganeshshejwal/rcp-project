@@ -58,6 +58,7 @@ public class DeviceMapStore implements MapStore<UUID, Device> {
 
     @Override
     public void storeAll(Map<UUID, Device> map) {
+        logger.info("Storing all data for keys in DB");
         deviceRepository.saveAll(map.values());
     }
 

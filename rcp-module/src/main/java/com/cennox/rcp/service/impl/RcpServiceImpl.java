@@ -52,11 +52,11 @@ public class RcpServiceImpl implements RcpService {
     
     @PostConstruct
     public void preloadDeviceCache() {
-    logger.info("The Device Data is loading from Database to cache");
-    IMap<UUID, Device> cache = hazelcastInstance.getMap("device");
-    List<Device> device = deviceRepository.findAll();
-         for (Device dev : device) {
-             cache.put(dev.getDeviceId(), dev);
+        logger.info("The Device Data is loading from Database to cache");
+        IMap<UUID, Device> cache = hazelcastInstance.getMap("device");
+        List<Device> devices = deviceRepository.findAll();
+        for (Device device : devices) {
+            cache.put(device.getDeviceId(), device);
         }
     }
 
@@ -80,15 +80,15 @@ public class RcpServiceImpl implements RcpService {
         return new ArrayList<>(cache.values());
     }
 
-    // @Override
-    // public Device updateDevice(UUID id, Device device) {
-    //     Device existingDevice = getDeviceById(id);
-    //     existingDevice.setTerminalId(device.getTerminalId());
-    //     existingDevice.setMerchantId(device.getMerchantId());
-    //     existingDevice.setDeviceType(device.getDeviceType());
-    //     existingDevice.setLocation(device.getLocation());
-    //     return deviceRepository.save(existingDevice);
-    // }
+    @Override
+    public Device updateDevice(UUID deviceId, Device device) {
+        Device existingDevice = getDeviceById(deviceId);
+        existingDevice.setTerminalId(device.getTerminalId());
+        existingDevice.setMerchantId(device.getMerchantId());
+        existingDevice.setDeviceType(device.getDeviceType());
+        existingDevice.setLocation(device.getLocation());
+        return deviceRepository.save(existingDevice);
+    }
 
     @Override
     public String deleteDevice(UUID deviceId) {

@@ -14,7 +14,7 @@ public class HazelcastClientConfig {
         ClientConfig clientConfig = new ClientConfig();
 
         clientConfig.setClusterName("rcp-cluster");
-        clientConfig.getNetworkConfig().addAddress("localhost:5701", "localhost:5702", "hz-server:5701");
+        clientConfig.getNetworkConfig().addAddress("localhost:5701", "localhost:5702");
 
                
         return HazelcastClient.newHazelcastClient(clientConfig);

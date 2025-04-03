@@ -15,7 +15,7 @@ public interface RcpService {
 
     List<Device> getAllDevices();
 
-    // Device updateDevice(UUID id, Device device);
+    Device updateDevice(UUID deviceId, Device device);
 
     String deleteDevice(UUID deviceId);
 

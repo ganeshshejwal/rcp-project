@@ -5,6 +5,8 @@ import java.util.UUID;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.Getter;
@@ -17,8 +19,9 @@ import lombok.Setter;
 public class Device implements Serializable{
 
     @Id
-    @Column(name = "cache_id")
-    private UUID deviceId; 
+    @GeneratedValue(strategy = GenerationType.UUID)
+    @Column(name = "device_id")
+    private UUID deviceId;  
 
     @Column(name = "terminal_id", nullable = false, unique = true, length = 20)
     private String terminalId;

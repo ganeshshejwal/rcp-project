@@ -46,7 +46,7 @@ public class HazelcastConfig {
         config.getNetworkConfig().getJoin().getMulticastConfig().setEnabled(false);
         config.getNetworkConfig().getJoin().getTcpIpConfig().setEnabled(true)
                 .addMember("localhost:5701")
-                .addMember("localhost:5702");
+                .addMember("localhost:5703");
 
         ManagementCenterConfig managementCenterConfig = new ManagementCenterConfig();
         managementCenterConfig.setConsoleEnabled(true);
