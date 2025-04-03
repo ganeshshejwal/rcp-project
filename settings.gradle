@@ -1,0 +1,6 @@
+rootProject.name = 'rcp-project'
+
+include 'hazelcast-server'
+include 'rcp-app'
+include 'rcp-module'
+include 'shared-libs'

@@ -1,4 +1,4 @@
-package com.cennox.rcp.entity;
+package com.cennox.sharedlibs.entity;
 
 import java.io.Serializable;
 
