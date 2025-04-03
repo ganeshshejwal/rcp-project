@@ -1,6 +1,7 @@
 package com.cennox.hazelcast_server.entity;
 
 import java.io.Serializable;
+import java.util.UUID;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -17,7 +18,7 @@ public class Device implements Serializable{
 
     @Id
     @Column(name = "cache_id")
-    private Long cacheId; 
+    private UUID deviceId; 
 
     @Column(name = "terminal_id", nullable = false, unique = true, length = 20)
     private String terminalId;
