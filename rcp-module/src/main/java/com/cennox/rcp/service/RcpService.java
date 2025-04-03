@@ -3,9 +3,9 @@ package com.cennox.rcp.service;
 import java.util.List;
 import java.util.UUID;
 
-import com.cennox.rcp.entity.Acquirer;
   
-import com.cennox.rcp.entity.Device;
+import com.cennox.sharedlibs.entity.Acquirer;
+import com.cennox.sharedlibs.entity.Device;
 
 public interface RcpService {
 

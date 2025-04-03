@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.cennox.rcp.entity.Acquirer;
-import com.cennox.rcp.entity.Device;
 import com.cennox.rcp.service.RcpService;
+import com.cennox.sharedlibs.entity.Acquirer;
+import com.cennox.sharedlibs.entity.Device;
 
 @RestController
 @RequestMapping("/api/rcp")

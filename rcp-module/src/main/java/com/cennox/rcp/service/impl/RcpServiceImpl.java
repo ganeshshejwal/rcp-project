@@ -6,18 +6,17 @@ import java.util.UUID;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.cennox.rcp.entity.Acquirer;
 import com.cennox.rcp.repository.AcquirerRepository;
 import com.cennox.rcp.service.RcpService;
+import com.cennox.sharedlibs.entity.Acquirer;
+import com.cennox.sharedlibs.entity.Device;
 import com.hazelcast.core.HazelcastInstance;
 import com.hazelcast.map.IMap;
 
 import jakarta.annotation.PostConstruct;
 
-import com.cennox.rcp.entity.Device;
 import com.cennox.rcp.repository.DeviceRepository;
 
 @Service

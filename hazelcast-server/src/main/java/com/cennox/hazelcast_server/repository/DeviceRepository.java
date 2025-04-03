@@ -1,11 +1,13 @@
 package com.cennox.hazelcast_server.repository;
 
-import com.cennox.hazelcast_server.entity.Device;
 
 import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+
+import com.cennox.sharedlibs.entity.Device;
+
 import java.util.UUID;
 
 

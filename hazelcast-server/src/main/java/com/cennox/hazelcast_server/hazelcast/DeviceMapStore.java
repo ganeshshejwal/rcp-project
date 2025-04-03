@@ -11,8 +11,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
-import com.cennox.hazelcast_server.entity.Device;
 import com.cennox.hazelcast_server.repository.DeviceRepository;
+import com.cennox.sharedlibs.entity.Device;
 import com.hazelcast.map.MapStore;
 
 @Component
