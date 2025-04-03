@@ -10,7 +10,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
+import java.util.UUID;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -21,8 +21,8 @@ import lombok.Setter;
 public class Acquirer implements Serializable{
     
     @Id
-    @Column(name = "cache_id")
-    private Long cacheId; 
+    @Column(name = "acquirer_id")
+    private UUID acquirerId; 
  
     private String acquirerName;
  
