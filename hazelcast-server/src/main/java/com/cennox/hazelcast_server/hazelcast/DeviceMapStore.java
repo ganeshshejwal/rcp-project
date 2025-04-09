@@ -54,6 +54,7 @@ public class DeviceMapStore implements MapStore<UUID, Device> {
     public void store(UUID key, Device value) {
         logger.info("Storing data for key: {} in DB", key);
         deviceRepository.save(value);
+        logger.info("Stored data for key: {} in DB", key);
     }
 
     @Override

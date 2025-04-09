@@ -16,10 +16,9 @@ import lombok.Setter;
 @Getter
 @Entity
 @Table(name = "device")
-public class Device implements Serializable{
+public class Device implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
     @Column(name = "device_id")
     private UUID deviceId;  
 

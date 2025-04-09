@@ -43,10 +43,10 @@ public class HazelcastConfig {
 
         config.setClusterName("rcp-cluster");
         config.getNetworkConfig().setPort(5701).setPortAutoIncrement(true).setPortCount(2);
-        config.getNetworkConfig().getJoin().getMulticastConfig().setEnabled(false);
-        config.getNetworkConfig().getJoin().getTcpIpConfig().setEnabled(true)
-                .addMember("localhost:5701")
-                .addMember("localhost:5703");
+        config.getNetworkConfig().getJoin().getMulticastConfig().setEnabled(true);
+        // config.getNetworkConfig().getJoin().getTcpIpConfig().setEnabled(true)
+        //         .addMember("localhost:5701")
+        //         .addMember("localhost:5703");
 
         ManagementCenterConfig managementCenterConfig = new ManagementCenterConfig();
         managementCenterConfig.setConsoleEnabled(true);

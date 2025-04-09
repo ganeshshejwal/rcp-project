@@ -1,12 +1,356 @@
-2025-04-03T16:35:10.822+05:30  INFO 21384 --- [hazelcast-server] [main] c.c.h.HazelcastServerApplication         : Starting HazelcastServerApplication using Java 21.0.5 with PID 21384 (D:\Cennox\rcp-project\hazelcast-server\build\classes\java\main started by ganesh.shejwal in D:\Cennox\rcp-project\hazelcast-server)
-2025-04-03T16:35:10.826+05:30  INFO 21384 --- [hazelcast-server] [main] c.c.h.HazelcastServerApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-04-03T16:35:12.154+05:30  INFO 21384 --- [hazelcast-server] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-03T16:35:12.278+05:30  INFO 21384 --- [hazelcast-server] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 109 ms. Found 2 JPA repository interfaces.
-2025-04-03T16:36:35.851+05:30  INFO 10592 --- [hazelcast-server] [main] c.c.h.HazelcastServerApplication         : Starting HazelcastServerApplication using Java 21.0.5 with PID 10592 (D:\Cennox\rcp-project\hazelcast-server\build\classes\java\main started by ganesh.shejwal in D:\Cennox\rcp-project\hazelcast-server)
-2025-04-03T16:36:35.855+05:30  INFO 10592 --- [hazelcast-server] [main] c.c.h.HazelcastServerApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-04-03T16:36:37.401+05:30  INFO 10592 --- [hazelcast-server] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-03T16:36:37.550+05:30  INFO 10592 --- [hazelcast-server] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 123 ms. Found 2 JPA repository interfaces.
-2025-04-03T16:38:38.286+05:30  INFO 2104 --- [hazelcast-server] [main] c.c.h.HazelcastServerApplication         : Starting HazelcastServerApplication using Java 21.0.5 with PID 2104 (D:\Cennox\rcp-project\hazelcast-server\build\classes\java\main started by ganesh.shejwal in D:\Cennox\rcp-project\hazelcast-server)
-2025-04-03T16:38:38.289+05:30  INFO 2104 --- [hazelcast-server] [main] c.c.h.HazelcastServerApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-04-03T16:38:39.667+05:30  INFO 2104 --- [hazelcast-server] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-03T16:38:39.849+05:30  INFO 2104 --- [hazelcast-server] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 156 ms. Found 2 JPA repository interfaces.
+2025-04-09T10:00:44.624+05:30  INFO 19648 --- [hazelcast-server] [main] c.c.h.HazelcastServerApplication         : Starting HazelcastServerApplication using Java 21.0.5 with PID 19648 (D:\Cennox\rcp-project\hazelcast-server\build\classes\java\main started by ganesh.shejwal in D:\Cennox\rcp-project\hazelcast-server)
+2025-04-09T10:00:44.644+05:30  INFO 19648 --- [hazelcast-server] [main] c.c.h.HazelcastServerApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T10:00:46.340+05:30  INFO 19648 --- [hazelcast-server] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-09T10:00:46.506+05:30  INFO 19648 --- [hazelcast-server] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 140 ms. Found 2 JPA repository interfaces.
+2025-04-09T10:01:10.383+05:30  INFO 25616 --- [hazelcast-server] [main] c.c.h.HazelcastServerApplication         : Starting HazelcastServerApplication using Java 21.0.5 with PID 25616 (D:\Cennox\rcp-project\hazelcast-server\build\classes\java\main started by ganesh.shejwal in D:\Cennox\rcp-project\hazelcast-server)
+2025-04-09T10:01:10.385+05:30  INFO 25616 --- [hazelcast-server] [main] c.c.h.HazelcastServerApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T10:01:11.084+05:30  INFO 25616 --- [hazelcast-server] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-09T10:01:11.212+05:30  INFO 25616 --- [hazelcast-server] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 117 ms. Found 2 JPA repository interfaces.
+2025-04-09T10:01:12.162+05:30  INFO 25616 --- [hazelcast-server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2025-04-09T10:01:12.179+05:30  INFO 25616 --- [hazelcast-server] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T10:01:12.179+05:30  INFO 25616 --- [hazelcast-server] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T10:01:12.295+05:30  INFO 25616 --- [hazelcast-server] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-09T10:01:12.295+05:30  INFO 25616 --- [hazelcast-server] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1849 ms
+2025-04-09T10:01:12.437+05:30  WARN 25616 --- [hazelcast-server] [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+2025-04-09T10:01:12.536+05:30  INFO 25616 --- [hazelcast-server] [main] com.hazelcast.system.logo                : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] 
+    o    o     o     o---o   o--o o      o---o     o     o----o o--o--o
+    |    |    / \       /         |     /         / \    |         |
+    o----o       o     o   o----o |    o             o   o----o    |
+    |    |  *     \   /           |     \       *     \       |    |
+    o    o *       o o---o   o--o o----o o---o *       o o----o    o
+
+2025-04-09T10:01:12.537+05:30  INFO 25616 --- [hazelcast-server] [main] com.hazelcast.system                     : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Copyright (c) 2008-2024, Hazelcast, Inc. All Rights Reserved.
+2025-04-09T10:01:12.538+05:30  INFO 25616 --- [hazelcast-server] [main] com.hazelcast.system                     : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Hazelcast Platform 5.5.0 (20240725) starting at [172.24.0.1]:5702
+2025-04-09T10:01:12.538+05:30  INFO 25616 --- [hazelcast-server] [main] com.hazelcast.system                     : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Cluster name: rcp-cluster
+2025-04-09T10:01:12.539+05:30  INFO 25616 --- [hazelcast-server] [main] com.hazelcast.system                     : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Integrity Checker is disabled. Fail-fast on corrupted executables will not be performed. For more information, see the documentation for Integrity Checker.
+2025-04-09T10:01:12.543+05:30  INFO 25616 --- [hazelcast-server] [main] com.hazelcast.system                     : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] The Jet engine is disabled.
+To enable the Jet engine on the members, do one of the following:
+  - Change member config using Java API: config.getJetConfig().setEnabled(true)
+  - Change XML/YAML configuration property: Set hazelcast.jet.enabled to true
+  - Add system property: -Dhz.jet.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_JET_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+2025-04-09T10:01:13.133+05:30  INFO 25616 --- [hazelcast-server] [main] com.hazelcast.system.security            : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Enable DEBUG/FINE log level for log category com.hazelcast.system.security  or use -Dhazelcast.security.recommendations system property to see security recommendations and the status of current config.
+2025-04-09T10:01:13.201+05:30  INFO 25616 --- [hazelcast-server] [main] com.hazelcast.instance.impl.Node         : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Using Multicast discovery
+2025-04-09T10:01:13.499+05:30  INFO 25616 --- [hazelcast-server] [main] c.h.internal.diagnostics.Diagnostics     : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2025-04-09T10:01:13.504+05:30  INFO 25616 --- [hazelcast-server] [main] com.hazelcast.core.LifecycleService      : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] [172.24.0.1]:5702 is STARTING
+2025-04-09T10:01:13.719+05:30  INFO 25616 --- [hazelcast-server] [main] c.h.i.cluster.impl.MulticastJoiner       : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Trying to join to discovered node: [172.24.0.1]:5701
+2025-04-09T10:01:13.761+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.IO.thread-in-0] c.h.i.server.tcp.TcpServerConnection     : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Initialized new cluster connection between /172.24.0.1:60940 and /172.24.0.1:5701
+2025-04-09T10:01:13.869+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.priority-generic-operation.thread-0] c.h.internal.cluster.ClusterService      : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] 
+
+Members {size:2, ver:2} [
+	Member [172.24.0.1]:5701 - 8232c613-416b-4351-902b-339de103994e
+	Member [172.24.0.1]:5702 - 6b30e612-cae5-481d-a624-5e5d9d9c1acc this
+]
+
+2025-04-09T10:01:13.887+05:30  INFO 25616 --- [hazelcast-server] [main] com.hazelcast.core.LifecycleService      : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] [172.24.0.1]:5702 is STARTED
+2025-04-09T10:01:14.111+05:30  INFO 25616 --- [hazelcast-server] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-09T10:01:14.239+05:30  INFO 25616 --- [hazelcast-server] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-09T10:01:14.289+05:30  INFO 25616 --- [hazelcast-server] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-09T10:01:14.701+05:30  INFO 25616 --- [hazelcast-server] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-09T10:01:14.739+05:30  INFO 25616 --- [hazelcast-server] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-09T10:01:14.947+05:30  INFO 25616 --- [hazelcast-server] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1d38cdde
+2025-04-09T10:01:14.950+05:30  INFO 25616 --- [hazelcast-server] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-09T10:01:14.983+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] The HealthMonitor has detected a high load on the system. For more detailed information,
+enable Diagnostics by adding the property -Dhazelcast.diagnostics.enabled=true
+2025-04-09T10:01:14.989+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] processors=4, physical.memory.total=15.8G, physical.memory.free=4.0G, swap.space.total=0, swap.space.free=0, heap.memory.used=60.8M, heap.memory.free=44.5M, heap.memory.total=74.0M, heap.memory.max=3.9G, heap.memory.used/total=82.19%, heap.memory.used/max=1.51%, minor.gc.count=9, minor.gc.time=54ms, major.gc.count=0, major.gc.time=0ms, unknown.gc.count=4, unknown.gc.time=4ms, load.process=0.00%, load.system=100.00%, load.systemAverage=n/a thread.count=48, thread.peakCount=48, cluster.timeDiff=-18, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.client.query.size=0, executor.q.client.blocking.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=7, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+2025-04-09T10:01:15.009+05:30  WARN 25616 --- [hazelcast-server] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-09T10:01:15.051+05:30  INFO 25616 --- [hazelcast-server] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-09T10:01:16.026+05:30  INFO 25616 --- [hazelcast-server] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-09T10:01:16.076+05:30  INFO 25616 --- [hazelcast-server] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09T10:01:16.117+05:30  WARN 25616 --- [hazelcast-server] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-09T10:01:16.766+05:30  INFO 25616 --- [hazelcast-server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2025-04-09T10:01:16.773+05:30  INFO 25616 --- [hazelcast-server] [main] c.c.h.HazelcastServerApplication         : Started HazelcastServerApplication in 6.999 seconds (process running for 7.522)
+2025-04-09T10:01:55.017+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] processors=4, physical.memory.total=15.8G, physical.memory.free=4.5G, swap.space.total=0, swap.space.free=0, heap.memory.used=36.3M, heap.memory.free=37.7M, heap.memory.total=74.0M, heap.memory.max=3.9G, heap.memory.used/total=49.11%, heap.memory.used/max=0.90%, minor.gc.count=14, minor.gc.time=101ms, major.gc.count=0, major.gc.time=0ms, unknown.gc.count=6, unknown.gc.time=7ms, load.process=0.00%, load.system=73.51%, load.systemAverage=n/a thread.count=61, thread.peakCount=61, cluster.timeDiff=-2, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.client.query.size=0, executor.q.client.blocking.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=16, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=1, client.connection.count=0, connection.count=1
+2025-04-09T10:03:55.075+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] processors=4, physical.memory.total=15.8G, physical.memory.free=4.1G, swap.space.total=0, swap.space.free=0, heap.memory.used=39.9M, heap.memory.free=34.1M, heap.memory.total=74.0M, heap.memory.max=3.9G, heap.memory.used/total=53.97%, heap.memory.used/max=0.99%, minor.gc.count=14, minor.gc.time=101ms, major.gc.count=0, major.gc.time=0ms, unknown.gc.count=6, unknown.gc.time=7ms, load.process=0.00%, load.system=78.59%, load.systemAverage=n/a thread.count=61, thread.peakCount=61, cluster.timeDiff=-1, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.client.query.size=0, executor.q.client.blocking.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=42, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=1, client.connection.count=0, connection.count=1
+2025-04-09T10:04:11.157+05:30  INFO 17168 --- [hazelcast-server] [main] c.c.h.HazelcastServerApplication         : Starting HazelcastServerApplication using Java 21.0.5 with PID 17168 (D:\Cennox\rcp-project\hazelcast-server\build\classes\java\main started by ganesh.shejwal in D:\Cennox\rcp-project\hazelcast-server)
+2025-04-09T10:04:11.160+05:30  INFO 17168 --- [hazelcast-server] [main] c.c.h.HazelcastServerApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T10:04:12.282+05:30  INFO 17168 --- [hazelcast-server] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-09T10:04:12.358+05:30  INFO 17168 --- [hazelcast-server] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 2 JPA repository interfaces.
+2025-04-09T10:04:12.986+05:30  INFO 17168 --- [hazelcast-server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
+2025-04-09T10:04:13.002+05:30  INFO 17168 --- [hazelcast-server] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-09T10:04:13.003+05:30  INFO 17168 --- [hazelcast-server] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09T10:04:13.075+05:30  INFO 17168 --- [hazelcast-server] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-09T10:04:13.076+05:30  INFO 17168 --- [hazelcast-server] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1835 ms
+2025-04-09T10:04:13.198+05:30  WARN 17168 --- [hazelcast-server] [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+2025-04-09T10:04:13.262+05:30 ERROR 17168 --- [hazelcast-server] [main] com.hazelcast.instance.AddressPicker     : [LOCAL] [rcp-cluster] [5.5.0] Cannot bind to a given address: /172.24.0.1. Hazelcast cannot start. Config-port: 5701, latest-port: 5702
+
+com.hazelcast.core.HazelcastException: Cannot bind to a given address: /172.24.0.1. Hazelcast cannot start. Config-port: 5701, latest-port: 5702
+	at com.hazelcast.instance.impl.ServerSocketHelper.createServerSocketChannel(ServerSocketHelper.java:86) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.instance.impl.DefaultAddressPicker.getPublicAddressByPortSearch(DefaultAddressPicker.java:149) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.instance.impl.DefaultAddressPicker.pickAddress(DefaultAddressPicker.java:121) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.instance.impl.Node.<init>(Node.java:235) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.instance.impl.HazelcastInstanceImpl.createNode(HazelcastInstanceImpl.java:150) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.instance.impl.HazelcastInstanceImpl.<init>(HazelcastInstanceImpl.java:118) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.instance.impl.HazelcastInstanceFactory.constructHazelcastInstance(HazelcastInstanceFactory.java:218) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.instance.impl.HazelcastInstanceFactory.newHazelcastInstance(HazelcastInstanceFactory.java:197) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.instance.impl.HazelcastInstanceFactory.newHazelcastInstance(HazelcastInstanceFactory.java:135) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.core.Hazelcast.newHazelcastInstance(Hazelcast.java:61) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.cennox.hazelcast_server.config.HazelcastConfig.hazelcastInstance(HazelcastConfig.java:56) ~[main/:na]
+	at com.cennox.hazelcast_server.config.HazelcastConfig$$SpringCGLIB$$0.CGLIB$hazelcastInstance$0(<generated>) ~[aotClasses/:na]
+	at com.cennox.hazelcast_server.config.HazelcastConfig$$SpringCGLIB$$FastClass$$1.invoke(<generated>) ~[aotClasses/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.2.5.jar:6.2.5]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:370) ~[spring-context-6.2.5.jar:6.2.5]
+	at com.cennox.hazelcast_server.config.HazelcastConfig$$SpringCGLIB$$0.hazelcastInstance(<generated>) ~[aotClasses/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:88) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:168) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1361) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.5.jar:6.2.5]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.5.jar:6.2.5]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.4.jar:3.4.4]
+	at com.cennox.hazelcast_server.HazelcastServerApplication.main(HazelcastServerApplication.java:12) ~[main/:na]
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.bind(Net.java:565) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89) ~[na:na]
+	at com.hazelcast.instance.impl.ServerSocketHelper.openServerSocketChannel(ServerSocketHelper.java:141) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.instance.impl.ServerSocketHelper.tryOpenServerSocketChannel(ServerSocketHelper.java:104) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.instance.impl.ServerSocketHelper.createServerSocketChannel(ServerSocketHelper.java:78) ~[hazelcast-5.5.0.jar:5.5.0]
+	... 41 common frames omitted
+
+2025-04-09T10:04:13.271+05:30  WARN 17168 --- [hazelcast-server] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'hazelcastInstance' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'hazelcastInstance' defined in class path resource [com/cennox/hazelcast_server/config/HazelcastConfig.class]: Failed to instantiate [com.hazelcast.core.HazelcastInstance]: Factory method 'hazelcastInstance' threw exception with message: Cannot bind to a given address: /172.24.0.1. Hazelcast cannot start. Config-port: 5701, latest-port: 5702
+2025-04-09T10:04:13.276+05:30  INFO 17168 --- [hazelcast-server] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-04-09T10:04:13.299+05:30  INFO 17168 --- [hazelcast-server] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-09T10:04:13.316+05:30 ERROR 17168 --- [hazelcast-server] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'hazelcastInstance' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'hazelcastInstance' defined in class path resource [com/cennox/hazelcast_server/config/HazelcastConfig.class]: Failed to instantiate [com.hazelcast.core.HazelcastInstance]: Factory method 'hazelcastInstance' threw exception with message: Cannot bind to a given address: /172.24.0.1. Hazelcast cannot start. Config-port: 5701, latest-port: 5702
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:328) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.5.jar:6.2.5]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.5.jar:6.2.5]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.4.jar:3.4.4]
+	at com.cennox.hazelcast_server.HazelcastServerApplication.main(HazelcastServerApplication.java:12) ~[main/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hazelcastInstance' defined in class path resource [com/cennox/hazelcast_server/config/HazelcastConfig.class]: Failed to instantiate [com.hazelcast.core.HazelcastInstance]: Factory method 'hazelcastInstance' threw exception with message: Cannot bind to a given address: /172.24.0.1. Hazelcast cannot start. Config-port: 5701, latest-port: 5702
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1361) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-6.2.5.jar:6.2.5]
+	... 10 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.hazelcast.core.HazelcastInstance]: Factory method 'hazelcastInstance' threw exception with message: Cannot bind to a given address: /172.24.0.1. Hazelcast cannot start. Config-port: 5701, latest-port: 5702
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:199) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:88) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:168) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-6.2.5.jar:6.2.5]
+	... 20 common frames omitted
+Caused by: com.hazelcast.core.HazelcastException: Cannot bind to a given address: /172.24.0.1. Hazelcast cannot start. Config-port: 5701, latest-port: 5702
+	at com.hazelcast.instance.impl.ServerSocketHelper.createServerSocketChannel(ServerSocketHelper.java:86) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.instance.impl.DefaultAddressPicker.getPublicAddressByPortSearch(DefaultAddressPicker.java:149) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.instance.impl.DefaultAddressPicker.pickAddress(DefaultAddressPicker.java:121) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.instance.impl.Node.<init>(Node.java:235) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.instance.impl.HazelcastInstanceImpl.createNode(HazelcastInstanceImpl.java:150) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.instance.impl.HazelcastInstanceImpl.<init>(HazelcastInstanceImpl.java:118) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.instance.impl.HazelcastInstanceFactory.constructHazelcastInstance(HazelcastInstanceFactory.java:218) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.instance.impl.HazelcastInstanceFactory.newHazelcastInstance(HazelcastInstanceFactory.java:197) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.instance.impl.HazelcastInstanceFactory.newHazelcastInstance(HazelcastInstanceFactory.java:135) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.core.Hazelcast.newHazelcastInstance(Hazelcast.java:61) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.cennox.hazelcast_server.config.HazelcastConfig.hazelcastInstance(HazelcastConfig.java:56) ~[main/:na]
+	at com.cennox.hazelcast_server.config.HazelcastConfig$$SpringCGLIB$$0.CGLIB$hazelcastInstance$0(<generated>) ~[aotClasses/:na]
+	at com.cennox.hazelcast_server.config.HazelcastConfig$$SpringCGLIB$$FastClass$$1.invoke(<generated>) ~[aotClasses/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.2.5.jar:6.2.5]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:370) ~[spring-context-6.2.5.jar:6.2.5]
+	at com.cennox.hazelcast_server.config.HazelcastConfig$$SpringCGLIB$$0.hazelcastInstance(<generated>) ~[aotClasses/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.2.5.jar:6.2.5]
+	... 23 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.bind(Net.java:565) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89) ~[na:na]
+	at com.hazelcast.instance.impl.ServerSocketHelper.openServerSocketChannel(ServerSocketHelper.java:141) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.instance.impl.ServerSocketHelper.tryOpenServerSocketChannel(ServerSocketHelper.java:104) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.instance.impl.ServerSocketHelper.createServerSocketChannel(ServerSocketHelper.java:78) ~[hazelcast-5.5.0.jar:5.5.0]
+	... 41 common frames omitted
+
+2025-04-09T10:04:39.991+05:30  WARN 25616 --- [hazelcast-server] [hz.hazelcast-instance.IO.thread-in-0] c.h.i.server.tcp.TcpServerConnection     : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Connection[id=1, /172.24.0.1:60940->/172.24.0.1:5701, qualifier=null, endpoint=[172.24.0.1]:5701, remoteUuid=8232c613-416b-4351-902b-339de103994e, alive=false, connectionType=MEMBER, planeIndex=0] closed. Reason: Exception in Connection[id=1, /172.24.0.1:60940->/172.24.0.1:5701, qualifier=null, endpoint=[172.24.0.1]:5701, remoteUuid=8232c613-416b-4351-902b-339de103994e, alive=true, connectionType=MEMBER, planeIndex=0], thread=hz.hazelcast-instance.IO.thread-in-0
+
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[na:na]
+	at com.hazelcast.internal.networking.nio.NioInboundPipeline.process(NioInboundPipeline.java:115) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.processSelectionKey(NioThread.java:383) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.processSelectionKeys(NioThread.java:368) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.selectLoop(NioThread.java:294) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.executeRun(NioThread.java:249) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.util.executor.HazelcastManagedThread.run(HazelcastManagedThread.java:111) ~[hazelcast-5.5.0.jar:5.5.0]
+
+2025-04-09T10:04:40.020+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.cached.thread-2] c.h.i.server.tcp.TcpServerConnector      : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Connecting to /172.24.0.1:5701, timeout: 10000, bind-any: true
+2025-04-09T10:04:40.068+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.IO.thread-in-1] c.h.i.server.tcp.TcpServerConnection     : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Initialized new cluster connection between /172.24.0.1:61095 and /172.24.0.1:5701
+2025-04-09T10:04:48.591+05:30  WARN 25616 --- [hazelcast-server] [hz.hazelcast-instance.IO.thread-in-1] c.h.i.server.tcp.TcpServerConnection     : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Connection[id=2, /172.24.0.1:61095->/172.24.0.1:5701, qualifier=null, endpoint=[172.24.0.1]:5701, remoteUuid=8232c613-416b-4351-902b-339de103994e, alive=false, connectionType=MEMBER, planeIndex=0] closed. Reason: Exception in Connection[id=2, /172.24.0.1:61095->/172.24.0.1:5701, qualifier=null, endpoint=[172.24.0.1]:5701, remoteUuid=8232c613-416b-4351-902b-339de103994e, alive=true, connectionType=MEMBER, planeIndex=0], thread=hz.hazelcast-instance.IO.thread-in-1
+
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[na:na]
+	at com.hazelcast.internal.networking.nio.NioInboundPipeline.process(NioInboundPipeline.java:115) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.processSelectionKey(NioThread.java:383) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.processSelectionKeys(NioThread.java:368) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.selectLoop(NioThread.java:294) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.executeRun(NioThread.java:249) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.util.executor.HazelcastManagedThread.run(HazelcastManagedThread.java:111) ~[hazelcast-5.5.0.jar:5.5.0]
+
+2025-04-09T10:04:48.595+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.cached.thread-2] c.h.i.server.tcp.TcpServerConnector      : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Connecting to /172.24.0.1:5701, timeout: 10000, bind-any: true
+2025-04-09T10:04:48.663+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.IO.thread-in-2] c.h.i.server.tcp.TcpServerConnection     : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Initialized new cluster connection between /172.24.0.1:62581 and /172.24.0.1:5701
+2025-04-09T10:04:48.666+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.IO.thread-in-0] c.h.i.server.tcp.TcpServerConnection     : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Initialized new cluster connection between /172.24.0.1:5702 and /172.24.0.1:62582
+2025-04-09T10:07:15.209+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] processors=4, physical.memory.total=15.8G, physical.memory.free=1.6G, swap.space.total=0, swap.space.free=0, heap.memory.used=51.0M, heap.memory.free=23.0M, heap.memory.total=74.0M, heap.memory.max=3.9G, heap.memory.used/total=68.96%, heap.memory.used/max=1.26%, minor.gc.count=14, minor.gc.time=101ms, major.gc.count=0, major.gc.time=0ms, unknown.gc.count=6, unknown.gc.time=7ms, load.process=0.00%, load.system=96.44%, load.systemAverage=n/a thread.count=63, thread.peakCount=64, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.client.query.size=0, executor.q.client.blocking.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=84, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=2, client.connection.count=0, connection.count=1
+2025-04-09T10:08:15.243+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] processors=4, physical.memory.total=15.8G, physical.memory.free=923.6M, swap.space.total=0, swap.space.free=0, heap.memory.used=52.8M, heap.memory.free=21.2M, heap.memory.total=74.0M, heap.memory.max=3.9G, heap.memory.used/total=71.36%, heap.memory.used/max=1.31%, minor.gc.count=14, minor.gc.time=101ms, major.gc.count=0, major.gc.time=0ms, unknown.gc.count=6, unknown.gc.time=7ms, load.process=0.00%, load.system=93.71%, load.systemAverage=n/a thread.count=61, thread.peakCount=64, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.client.query.size=0, executor.q.client.blocking.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=97, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=2, client.connection.count=0, connection.count=1
+2025-04-09T10:08:31.701+05:30  WARN 25616 --- [hazelcast-server] [hz.hazelcast-instance.IO.thread-in-2] c.h.i.server.tcp.TcpServerConnection     : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Connection[id=3, /172.24.0.1:62581->/172.24.0.1:5701, qualifier=null, endpoint=[172.24.0.1]:5701, remoteUuid=8232c613-416b-4351-902b-339de103994e, alive=false, connectionType=MEMBER, planeIndex=0] closed. Reason: Exception in Connection[id=3, /172.24.0.1:62581->/172.24.0.1:5701, qualifier=null, endpoint=[172.24.0.1]:5701, remoteUuid=8232c613-416b-4351-902b-339de103994e, alive=true, connectionType=MEMBER, planeIndex=0], thread=hz.hazelcast-instance.IO.thread-in-2
+
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[na:na]
+	at com.hazelcast.internal.networking.nio.NioInboundPipeline.process(NioInboundPipeline.java:115) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.processSelectionKey(NioThread.java:383) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.processSelectionKeys(NioThread.java:368) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.selectLoop(NioThread.java:294) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.executeRun(NioThread.java:249) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.util.executor.HazelcastManagedThread.run(HazelcastManagedThread.java:111) ~[hazelcast-5.5.0.jar:5.5.0]
+
+2025-04-09T10:08:31.701+05:30  WARN 25616 --- [hazelcast-server] [hz.hazelcast-instance.IO.thread-in-0] c.h.i.server.tcp.TcpServerConnection     : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Connection[id=4, /172.24.0.1:5702->/172.24.0.1:62582, qualifier=null, endpoint=[172.24.0.1]:5701, remoteUuid=8232c613-416b-4351-902b-339de103994e, alive=false, connectionType=MEMBER, planeIndex=0] closed. Reason: Exception in Connection[id=4, /172.24.0.1:5702->/172.24.0.1:62582, qualifier=null, endpoint=[172.24.0.1]:5701, remoteUuid=8232c613-416b-4351-902b-339de103994e, alive=true, connectionType=MEMBER, planeIndex=0], thread=hz.hazelcast-instance.IO.thread-in-0
+
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[na:na]
+	at com.hazelcast.internal.networking.nio.NioInboundPipeline.process(NioInboundPipeline.java:115) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.processSelectionKey(NioThread.java:383) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.processSelectionKeys(NioThread.java:368) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.selectLoop(NioThread.java:294) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.executeRun(NioThread.java:249) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.util.executor.HazelcastManagedThread.run(HazelcastManagedThread.java:111) ~[hazelcast-5.5.0.jar:5.5.0]
+
+2025-04-09T10:08:31.719+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.cached.thread-1] c.h.i.server.tcp.TcpServerConnector      : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Connecting to /172.24.0.1:5701, timeout: 10000, bind-any: true
+2025-04-09T10:08:31.792+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.IO.thread-in-1] c.h.i.server.tcp.TcpServerConnection     : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Initialized new cluster connection between /172.24.0.1:62880 and /172.24.0.1:5701
+2025-04-09T10:08:31.889+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.IO.thread-in-2] c.h.i.server.tcp.TcpServerConnection     : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Initialized new cluster connection between /172.24.0.1:5702 and /172.24.0.1:62883
+2025-04-09T10:08:35.247+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] processors=4, physical.memory.total=15.8G, physical.memory.free=590.8M, swap.space.total=0, swap.space.free=0, heap.memory.used=56.2M, heap.memory.free=17.8M, heap.memory.total=74.0M, heap.memory.max=3.9G, heap.memory.used/total=76.00%, heap.memory.used/max=1.39%, minor.gc.count=14, minor.gc.time=101ms, major.gc.count=0, major.gc.time=0ms, unknown.gc.count=6, unknown.gc.time=7ms, load.process=0.00%, load.system=100.00%, load.systemAverage=n/a thread.count=61, thread.peakCount=64, cluster.timeDiff=-2, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.client.query.size=0, executor.q.client.blocking.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=101, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=2, client.connection.count=0, connection.count=1
+2025-04-09T10:08:48.752+05:30  WARN 25616 --- [hazelcast-server] [hz.hazelcast-instance.IO.thread-in-2] c.h.i.server.tcp.TcpServerConnection     : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Connection[id=6, /172.24.0.1:5702->/172.24.0.1:62883, qualifier=null, endpoint=[172.24.0.1]:5701, remoteUuid=8232c613-416b-4351-902b-339de103994e, alive=false, connectionType=MEMBER, planeIndex=0] closed. Reason: Exception in Connection[id=6, /172.24.0.1:5702->/172.24.0.1:62883, qualifier=null, endpoint=[172.24.0.1]:5701, remoteUuid=8232c613-416b-4351-902b-339de103994e, alive=true, connectionType=MEMBER, planeIndex=0], thread=hz.hazelcast-instance.IO.thread-in-2
+
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[na:na]
+	at com.hazelcast.internal.networking.nio.NioInboundPipeline.process(NioInboundPipeline.java:115) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.processSelectionKey(NioThread.java:383) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.processSelectionKeys(NioThread.java:368) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.selectLoop(NioThread.java:294) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.executeRun(NioThread.java:249) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.util.executor.HazelcastManagedThread.run(HazelcastManagedThread.java:111) ~[hazelcast-5.5.0.jar:5.5.0]
+
+2025-04-09T10:08:48.753+05:30  WARN 25616 --- [hazelcast-server] [hz.hazelcast-instance.IO.thread-in-1] c.h.i.server.tcp.TcpServerConnection     : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Connection[id=5, /172.24.0.1:62880->/172.24.0.1:5701, qualifier=null, endpoint=[172.24.0.1]:5701, remoteUuid=8232c613-416b-4351-902b-339de103994e, alive=false, connectionType=MEMBER, planeIndex=0] closed. Reason: Exception in Connection[id=5, /172.24.0.1:62880->/172.24.0.1:5701, qualifier=null, endpoint=[172.24.0.1]:5701, remoteUuid=8232c613-416b-4351-902b-339de103994e, alive=true, connectionType=MEMBER, planeIndex=0], thread=hz.hazelcast-instance.IO.thread-in-1
+
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[na:na]
+	at com.hazelcast.internal.networking.nio.NioInboundPipeline.process(NioInboundPipeline.java:115) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.processSelectionKey(NioThread.java:383) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.processSelectionKeys(NioThread.java:368) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.selectLoop(NioThread.java:294) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.executeRun(NioThread.java:249) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.util.executor.HazelcastManagedThread.run(HazelcastManagedThread.java:111) ~[hazelcast-5.5.0.jar:5.5.0]
+
+2025-04-09T10:08:48.758+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.cached.thread-4] c.h.i.server.tcp.TcpServerConnector      : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Connecting to /172.24.0.1:5701, timeout: 10000, bind-any: true
+2025-04-09T10:08:49.032+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.IO.thread-in-0] c.h.i.server.tcp.TcpServerConnection     : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Initialized new cluster connection between /172.24.0.1:57712 and /172.24.0.1:5701
+2025-04-09T10:08:49.126+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.IO.thread-in-1] c.h.i.server.tcp.TcpServerConnection     : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Initialized new cluster connection between /172.24.0.1:5702 and /172.24.0.1:57713
+2025-04-09T10:08:49.235+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.IO.thread-in-2] c.h.i.server.tcp.TcpServerConnection     : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Initialized new cluster connection between /172.24.0.1:5702 and /172.24.0.1:57714
+2025-04-09T10:14:15.393+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] processors=4, physical.memory.total=15.8G, physical.memory.free=1.4G, swap.space.total=0, swap.space.free=0, heap.memory.used=49.3M, heap.memory.free=24.7M, heap.memory.total=74.0M, heap.memory.max=3.9G, heap.memory.used/total=66.59%, heap.memory.used/max=1.22%, minor.gc.count=15, minor.gc.time=107ms, major.gc.count=0, major.gc.time=0ms, unknown.gc.count=8, unknown.gc.time=18ms, load.process=0.00%, load.system=74.89%, load.systemAverage=n/a thread.count=62, thread.peakCount=65, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.client.query.size=0, executor.q.client.blocking.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=174, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=3, client.connection.count=0, connection.count=1
+2025-04-09T10:33:56.016+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] processors=4, physical.memory.total=15.8G, physical.memory.free=2.8G, swap.space.total=0, swap.space.free=0, heap.memory.used=58.9M, heap.memory.free=15.1M, heap.memory.total=74.0M, heap.memory.max=3.9G, heap.memory.used/total=79.66%, heap.memory.used/max=1.46%, minor.gc.count=16, minor.gc.time=115ms, major.gc.count=0, major.gc.time=0ms, unknown.gc.count=8, unknown.gc.time=18ms, load.process=0.00%, load.system=81.09%, load.systemAverage=n/a thread.count=61, thread.peakCount=65, cluster.timeDiff=-1, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.client.query.size=0, executor.q.client.blocking.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=430, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=3, client.connection.count=0, connection.count=1
+2025-04-09T10:52:36.622+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] processors=4, physical.memory.total=15.8G, physical.memory.free=2.8G, swap.space.total=0, swap.space.free=0, heap.memory.used=63.8M, heap.memory.free=10.2M, heap.memory.total=74.0M, heap.memory.max=3.9G, heap.memory.used/total=86.21%, heap.memory.used/max=1.58%, minor.gc.count=17, minor.gc.time=125ms, major.gc.count=0, major.gc.time=0ms, unknown.gc.count=8, unknown.gc.time=18ms, load.process=0.00%, load.system=71.64%, load.systemAverage=n/a thread.count=65, thread.peakCount=65, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.client.query.size=0, executor.q.client.blocking.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=672, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=3, client.connection.count=0, connection.count=1
+2025-04-09T10:58:04.213+05:30  WARN 25616 --- [hazelcast-server] [hz.hazelcast-instance.IO.thread-in-0] c.h.i.server.tcp.TcpServerConnection     : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Connection[id=7, /172.24.0.1:57712->/172.24.0.1:5701, qualifier=null, endpoint=[172.24.0.1]:5701, remoteUuid=8232c613-416b-4351-902b-339de103994e, alive=false, connectionType=MEMBER, planeIndex=0] closed. Reason: Exception in Connection[id=7, /172.24.0.1:57712->/172.24.0.1:5701, qualifier=null, endpoint=[172.24.0.1]:5701, remoteUuid=8232c613-416b-4351-902b-339de103994e, alive=true, connectionType=MEMBER, planeIndex=0], thread=hz.hazelcast-instance.IO.thread-in-0
+
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[na:na]
+	at com.hazelcast.internal.networking.nio.NioInboundPipeline.process(NioInboundPipeline.java:115) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.processSelectionKey(NioThread.java:383) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.processSelectionKeys(NioThread.java:368) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.selectLoop(NioThread.java:294) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.executeRun(NioThread.java:249) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.util.executor.HazelcastManagedThread.run(HazelcastManagedThread.java:111) ~[hazelcast-5.5.0.jar:5.5.0]
+
+2025-04-09T10:58:04.213+05:30  WARN 25616 --- [hazelcast-server] [hz.hazelcast-instance.IO.thread-in-2] c.h.i.server.tcp.TcpServerConnection     : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Connection[id=9, /172.24.0.1:5702->/172.24.0.1:57714, qualifier=null, endpoint=[172.24.0.1]:5701, remoteUuid=8232c613-416b-4351-902b-339de103994e, alive=false, connectionType=MEMBER, planeIndex=0] closed. Reason: Exception in Connection[id=9, /172.24.0.1:5702->/172.24.0.1:57714, qualifier=null, endpoint=[172.24.0.1]:5701, remoteUuid=8232c613-416b-4351-902b-339de103994e, alive=true, connectionType=MEMBER, planeIndex=0], thread=hz.hazelcast-instance.IO.thread-in-2
+
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[na:na]
+	at com.hazelcast.internal.networking.nio.NioInboundPipeline.process(NioInboundPipeline.java:115) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.processSelectionKey(NioThread.java:383) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.processSelectionKeys(NioThread.java:368) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.selectLoop(NioThread.java:294) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.executeRun(NioThread.java:249) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.util.executor.HazelcastManagedThread.run(HazelcastManagedThread.java:111) ~[hazelcast-5.5.0.jar:5.5.0]
+
+2025-04-09T10:58:04.213+05:30  WARN 25616 --- [hazelcast-server] [hz.hazelcast-instance.IO.thread-in-1] c.h.i.server.tcp.TcpServerConnection     : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Connection[id=8, /172.24.0.1:5702->/172.24.0.1:57713, qualifier=null, endpoint=[172.24.0.1]:5701, remoteUuid=8232c613-416b-4351-902b-339de103994e, alive=false, connectionType=MEMBER, planeIndex=0] closed. Reason: Exception in Connection[id=8, /172.24.0.1:5702->/172.24.0.1:57713, qualifier=null, endpoint=[172.24.0.1]:5701, remoteUuid=8232c613-416b-4351-902b-339de103994e, alive=true, connectionType=MEMBER, planeIndex=0], thread=hz.hazelcast-instance.IO.thread-in-1
+
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[na:na]
+	at com.hazelcast.internal.networking.nio.NioInboundPipeline.process(NioInboundPipeline.java:115) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.processSelectionKey(NioThread.java:383) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.processSelectionKeys(NioThread.java:368) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.selectLoop(NioThread.java:294) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.executeRun(NioThread.java:249) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.util.executor.HazelcastManagedThread.run(HazelcastManagedThread.java:111) ~[hazelcast-5.5.0.jar:5.5.0]
+
+2025-04-09T10:58:04.219+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.cached.thread-5] c.h.i.server.tcp.TcpServerConnector      : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Connecting to /172.24.0.1:5701, timeout: 10000, bind-any: true
+2025-04-09T10:58:04.225+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.cached.thread-5] c.h.i.server.tcp.TcpServerConnector      : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Could not connect to: /172.24.0.1:5701. Reason: IOException[No route to host: getsockopt to address /172.24.0.1:5701]
+2025-04-09T10:58:04.344+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.cached.thread-4] c.h.i.server.tcp.TcpServerConnector      : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Connecting to /172.24.0.1:5701, timeout: 10000, bind-any: true
+2025-04-09T10:58:04.344+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.cached.thread-4] c.h.i.server.tcp.TcpServerConnector      : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Could not connect to: /172.24.0.1:5701. Reason: IOException[No route to host: getsockopt to address /172.24.0.1:5701]
+2025-04-09T10:58:04.458+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.IO.thread-in-2] c.h.i.server.tcp.TcpServerConnection     : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Initialized new cluster connection between /172.24.0.1:5702 and /172.24.0.1:53534
+2025-04-09T10:58:41.789+05:30  WARN 25616 --- [hazelcast-server] [hz.hazelcast-instance.IO.thread-in-2] c.h.i.server.tcp.TcpServerConnection     : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Connection[id=10, /172.24.0.1:5702->/172.24.0.1:53534, qualifier=null, endpoint=[172.24.0.1]:5701, remoteUuid=8232c613-416b-4351-902b-339de103994e, alive=false, connectionType=MEMBER, planeIndex=0] closed. Reason: Exception in Connection[id=10, /172.24.0.1:5702->/172.24.0.1:53534, qualifier=null, endpoint=[172.24.0.1]:5701, remoteUuid=8232c613-416b-4351-902b-339de103994e, alive=true, connectionType=MEMBER, planeIndex=0], thread=hz.hazelcast-instance.IO.thread-in-2
+
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[na:na]
+	at com.hazelcast.internal.networking.nio.NioInboundPipeline.process(NioInboundPipeline.java:115) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.processSelectionKey(NioThread.java:383) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.processSelectionKeys(NioThread.java:368) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.selectLoop(NioThread.java:294) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.networking.nio.NioThread.executeRun(NioThread.java:249) ~[hazelcast-5.5.0.jar:5.5.0]
+	at com.hazelcast.internal.util.executor.HazelcastManagedThread.run(HazelcastManagedThread.java:111) ~[hazelcast-5.5.0.jar:5.5.0]
+
+2025-04-09T10:58:41.810+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.cached.thread-6] c.h.i.server.tcp.TcpServerConnector      : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Connecting to /172.24.0.1:5701, timeout: 10000, bind-any: true
+2025-04-09T10:58:41.886+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.IO.thread-in-0] c.h.i.server.tcp.TcpServerConnection     : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Initialized new cluster connection between /172.24.0.1:60391 and /172.24.0.1:5701
+2025-04-09T10:58:41.887+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.IO.thread-in-1] c.h.i.server.tcp.TcpServerConnection     : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] Initialized new cluster connection between /172.24.0.1:5702 and /172.24.0.1:60392
+2025-04-09T10:59:16.804+05:30  INFO 25616 --- [hazelcast-server] [hz.hazelcast-instance.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [172.24.0.1]:5702 [rcp-cluster] [5.5.0] processors=4, physical.memory.total=15.8G, physical.memory.free=2.4G, swap.space.total=0, swap.space.free=0, heap.memory.used=51.4M, heap.memory.free=22.6M, heap.memory.total=74.0M, heap.memory.max=3.9G, heap.memory.used/total=69.40%, heap.memory.used/max=1.27%, minor.gc.count=18, minor.gc.time=135ms, major.gc.count=0, major.gc.time=0ms, unknown.gc.count=10, unknown.gc.time=32ms, load.process=0.00%, load.system=76.02%, load.systemAverage=n/a thread.count=61, thread.peakCount=65, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.client.query.size=0, executor.q.client.blocking.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=759, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=2, client.connection.count=0, connection.count=1

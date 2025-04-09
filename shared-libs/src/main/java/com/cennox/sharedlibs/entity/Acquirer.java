@@ -18,7 +18,7 @@ import java.util.UUID;
 @Getter
 @Entity
 @Table(name = "acquirer")
-public class Acquirer implements Serializable{
+public class Acquirer implements Serializable {
     
     @Id
     @Column(name = "acquirer_id")

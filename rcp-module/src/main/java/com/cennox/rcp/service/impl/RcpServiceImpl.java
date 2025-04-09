@@ -8,7 +8,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
-import com.cennox.rcp.repository.AcquirerRepository;
+import com.cennox.hazelcast_server.repository.AcquirerRepository;
+import com.cennox.hazelcast_server.repository.DeviceRepository;
 import com.cennox.rcp.service.RcpService;
 import com.cennox.sharedlibs.entity.Acquirer;
 import com.cennox.sharedlibs.entity.Device;
@@ -17,14 +18,11 @@ import com.hazelcast.map.IMap;
 
 import jakarta.annotation.PostConstruct;
 
-import com.cennox.rcp.repository.DeviceRepository;
 
 @Service
 public class RcpServiceImpl implements RcpService {
 
     private Logger logger = LoggerFactory.getLogger(RcpServiceImpl.class);
-
-
    
     private final HazelcastInstance hazelcastInstance;
     
@@ -62,6 +60,8 @@ public class RcpServiceImpl implements RcpService {
 
     @Override
     public Device createDevice(Device device) {
+        UUID deviceId = UUID.randomUUID();
+        device.setDeviceId(deviceId);
         IMap<UUID, Device> cache = hazelcastInstance.getMap("device");
         cache.put(device.getDeviceId(), device);
         return device;
@@ -100,9 +100,11 @@ public class RcpServiceImpl implements RcpService {
 
     @Override
     public Acquirer createAcquirer(Acquirer acquirer) {
+        UUID acquirerId = UUID.randomUUID();
+        acquirer.setAcquirerId(acquirerId);
         IMap<UUID, Acquirer> cache = hazelcastInstance.getMap("acquirer");
-         cache.put(acquirer.getAcquirerId(), acquirer);
-         return acquirer;
+        cache.put(acquirer.getAcquirerId(), acquirer);
+        return acquirer;
     }
 
     // @Override
