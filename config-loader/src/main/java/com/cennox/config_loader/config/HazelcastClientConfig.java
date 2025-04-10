@@ -1,4 +1,4 @@
-package com.cennox.rcp.config;
+package com.cennox.config_loader.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

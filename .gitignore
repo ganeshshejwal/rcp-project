@@ -38,3 +38,6 @@ out/
 
 ### Log Files ###
 application.log
+*.gz
+node_modules/
+dist/
